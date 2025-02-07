@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .new-task__input-container {
@@ -134,7 +134,7 @@ input#new-task {
 }
 
 .list__point > .task-input {
-  width: 226px
+  width: 226px;
 }
 
 button.delete .button__image {
@@ -149,18 +149,18 @@ button.delete .button__image:hover {
 
 /* Completed */
 .list#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list .list__point .task-input {
-  display: none
+  display: none;
 }
 
 .list li.edit-text .task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list li.edit-text label {
