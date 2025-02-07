@@ -12,7 +12,7 @@
     charset="utf-8">
 </head>
 <body class="page">
-  <div class="header">
+  <header class="header">
     <img src="./eisenhower-matrix.jpg" class="header__image">
     <a
       class="header__link"
@@ -20,9 +20,9 @@
     >
       Want more details?
     </a>
-  </div>
-  <div class="board">
-    <p id="new-task__title">
+  </header>
+  <section class="board">
+    <div id="new-task__title">
       <label 
         for="new-task"
         class="new-task__label">
@@ -35,7 +35,7 @@
           type="text">
         <button class="button">Add</button>
       </div>
-    </p>
+    </div>
     <h3 class="section-title incomplite-task__title">Todo</h3>
     <ul 
       id="incomplete-tasks"
@@ -91,7 +91,7 @@
         </button>
       </li>
     </ul>
-  </div>
+  </section>
 <script src="app.js"></script>
 </body>
 </html>
