@@ -13,7 +13,10 @@
 </head>
 <body class="page">
   <header class="header">
-    <img src="./eisenhower-matrix.jpg" class="header__image">
+    <img 
+      src="./eisenhower-matrix.jpg"
+      class="header__image"
+      alt="Eisenhower Matrix diagram">
     <a
       class="header__link"
       href="https://goal-life.com/page/method/matrix-eisenhower"
@@ -33,13 +36,17 @@
           id="new-task"
           class="input task task-input"
           type="text">
-        <button class="button">Add</button>
+        <button 
+          class="button"
+          aria-label="Add task">
+          Add</button>
       </div>
     </div>
     <h3 class="section-title incomplite-task__title">Todo</h3>
     <ul 
       id="incomplete-tasks"
-      class="list">
+      class="list"
+      aria-live="polite">
       <li class="list__point">
         <input 
           class="input task-checkbox"
@@ -48,9 +55,17 @@
         <input 
           type="text"
           class="input task task-input">
-        <button class="button edit">Edit</button>
-        <button class="button delete">
-          <img src="./remove.svg" class="button__image">
+        <button 
+          class="button edit"
+          aria-label="Edit task">
+          Edit</button>
+        <button 
+          class="button delete"
+          aria-label="Delete task">
+          <img 
+            src="./remove.svg"
+            class="button__image"
+            alt="delete button">
         </button>
       </li>
       <li class="edit-text list__point">
@@ -62,18 +77,25 @@
           type="text"
           value="Go Shopping"
           class="input task task-input">
-        <button class="button edit">Save</button>
-        <button class="button delete">
+        <button 
+          class="button edit"
+          aria-label="Edit task">
+          Save</button>
+        <button 
+          class="button delete"
+          aria-label="Delete task">
           <img 
             src="./remove.svg"
-            class="button__image">
+            class="button__image"
+            alt="delete button">
         </button>
       </li>
     </ul>
     <h3 class="section-title complite-task__title">Completed</h3>
     <ul 
       id="completed-tasks"
-      class="list">
+      class="list"
+      aria-live="polite">
       <li class="list__point">
         <input 
           class="input task-checkbox"
@@ -83,8 +105,12 @@
         <input 
           type="text"
           class="input task task-input">
-        <button class="button edit">Edit</button>
-        <button class="button delete">
+        <button 
+          class="button edit"
+          aria-label="Edit task">Edit</button>
+        <button 
+          class="button delete"
+          aria-label="Delete task">
           <img 
             src="./remove.svg"
             class="button__image">
