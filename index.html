@@ -12,19 +12,19 @@
     charset="utf-8">
 </head>
 <body>
-  <div class="aaa">
-    <img src="./eisenhower-matrix.jpg">
+  <div class="header">
+    <img src="./eisenhower-matrix.jpg" >
     <a
-      class="more_inf"
+      class="more-inf"
       href="https://goal-life.com/page/method/matrix-eisenhower"
     >
       Want more details?
     </a>
   </div>
-  <div class="centered-main-page-element">
-    <p id="topSectionForAddingElementToList">
+  <div class="board">
+    <p id="new-task__title">
       <label for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
+      <div class="new-task__input-container">
         <input 
           id="new-task"
           class="task"
@@ -32,8 +32,8 @@
         <button>Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
-    <ul id="incompleteTasks">
+    <h3 class="incomplite-task__title">Todo</h3>
+    <ul id="incomplete-tasks">
       <li>
         <input type="checkbox">
         <label class="task">Pay Bills</label>
@@ -45,7 +45,7 @@
           <img src="./remove.svg">
         </button>
       </li>
-      <li class="editMode">
+      <li class="edit-text">
         <input type="checkbox">
         <label class="task">Go Shopping</label>
         <input 
@@ -58,7 +58,7 @@
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="complite-task__title">Completed</h3>
     <ul id="completed-tasks">
       <li>
         <input type="checkbox" checked>
