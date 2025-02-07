@@ -43,16 +43,16 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list__point, .section-title {
-  list-style:none;
+  list-style: none;
 }
 
 .input, .button{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -155,14 +155,14 @@ button.delete .button__image:hover {
 
 /* Edit Task */
 .list .list__point .task-input {
-  display:none
+  display: none
 }
 
 .list li.edit-text .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list li.edit-text label {
-  display:none;
+  display: none;
 }
